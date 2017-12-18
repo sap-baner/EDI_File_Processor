@@ -2,99 +2,98 @@ package dao;
 
 public class FunctionalGroupHeader_GS {
 	
-	private String functIdentifierCode_GS01;
 	
-	private String appSenderCode_GS02;
+	private String GS01_functIdentifierCode;	
+
+	private String GS02_appSenderCode;
 	
-	private String appReceiverCode_GS03;
+	private String GS03_appReceiverCode;
 	
-	private String ediDate_GS04;
+	private String GS04_ediDate;
 	
-	private String ediTime_GS05;
+	private String GS05_ediTime;
 	
-	private String grpControlNo_GS06;
+	private String GS06_grpControlNo;
 	
-	private String respAgencyCode_GS07;
+	private String GS07_respAgencyCode;
 	
-	private String ediVersionNo_GS08;
+	private String GS08_ediVersionNo;
 	
 	
-	public String getFunctIdentifierCode_GS01() {
-		return functIdentifierCode_GS01;
+	public String getGS01_functIdentifierCode() {
+		return GS01_functIdentifierCode;
+	}
+
+	
+	public void setGS01_functIdentifierCode(String gS01_functIdentifierCode) {
+		GS01_functIdentifierCode = gS01_functIdentifierCode;
+	}
+
+	
+	public String getGS02_appSenderCode() {
+		return GS02_appSenderCode;
+	}
+
+	
+	public void setGS02_appSenderCode(String gS02_appSenderCode) {
+		GS02_appSenderCode = gS02_appSenderCode;
+	}
+
+	
+	public String getGS03_appReceiverCode() {
+		return GS03_appReceiverCode;
+	}
+
+	
+	public void setGS03_appReceiverCode(String gS03_appReceiverCode) {
+		GS03_appReceiverCode = gS03_appReceiverCode;
+	}
+
+	
+	public String getGS04_ediDate() {
+		return GS04_ediDate;
+	}
+
+	public void setGS04_ediDate(String gS04_ediDate) {
+		GS04_ediDate = gS04_ediDate;
+	}
+
+	
+	public String getGS05_ediTime() {
+		return GS05_ediTime;
+	}
+
+	
+	public void setGS05_ediTime(String gS05_ediTime) {
+		GS05_ediTime = gS05_ediTime;
+	}
+
+	public String getGS06_grpControlNo() {
+		return GS06_grpControlNo;
+	}
+
+	
+	public void setGS06_grpControlNo(String gS06_grpControlNo) {
+		GS06_grpControlNo = gS06_grpControlNo;
+	}
+
+	
+	public String getGS07_respAgencyCode() {
+		return GS07_respAgencyCode;
 	}
 	
-	
-	public void setFunctIdentifierCode_GS01(String functIdentifierCode_GS01) {
-		this.functIdentifierCode_GS01 = functIdentifierCode_GS01;
+
+	public void setGS07_respAgencyCode(String gS07_respAgencyCode) {
+		GS07_respAgencyCode = gS07_respAgencyCode;
 	}
 	
-	
-	public String getAppSenderCode_GS02() {
-		return appSenderCode_GS02;
+
+	public String getGS08_ediVersionNo() {
+		return GS08_ediVersionNo;
 	}
 	
-	
-	public void setAppSenderCode_GS02(String appSenderCode_GS02) {
-		this.appSenderCode_GS02 = appSenderCode_GS02;
+
+	public void setGS08_ediVersionNo(String gS08_ediVersionNo) {
+		GS08_ediVersionNo = gS08_ediVersionNo;
 	}
-	
-	
-	public String getAppReceiverCode_GS03() {
-		return appReceiverCode_GS03;
-	}
-	
-	
-	public void setAppReceiverCode_GS03(String appReceiverCode_GS03) {
-		this.appReceiverCode_GS03 = appReceiverCode_GS03;
-	}
-	
-	
-	public String getEdiDate_GS04() {
-		return ediDate_GS04;
-	}
-	public void setEdiDate_GS04(String ediDate_GS04) {
-		this.ediDate_GS04 = ediDate_GS04;
-	}
-	
-	
-	public String getEdiTime_GS05() {
-		return ediTime_GS05;
-	}
-	
-	
-	public void setEdiTime_GS05(String ediTime_GS05) {
-		this.ediTime_GS05 = ediTime_GS05;
-	}
-	
-	
-	public String getGrpControlNo_GS06() {
-		return grpControlNo_GS06;
-	}
-	
-	
-	public void setGrpControlNo_GS06(String grpControlNo_GS06) {
-		this.grpControlNo_GS06 = grpControlNo_GS06;
-	}
-	
-	
-	public String getRespAgencyCode_GS07() {
-		return respAgencyCode_GS07;
-	}
-	
-	
-	public void setRespAgencyCode_GS07(String respAgencyCode_GS07) {
-		this.respAgencyCode_GS07 = respAgencyCode_GS07;
-	}
-	
-	
-	public String getEdiVersionNo_GS08() {
-		return ediVersionNo_GS08;
-	}
-	
-	
-	public void setEdiVersionNo_GS08(String ediVersionNo_GS08) {
-		this.ediVersionNo_GS08 = ediVersionNo_GS08;
-	}
-	
-	
 }
