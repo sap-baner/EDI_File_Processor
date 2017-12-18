@@ -56,8 +56,7 @@ public class FileReader {
 			reader = new BufferedReader(new InputStreamReader(new FileInputStream(inputPath), UTF_8_ENCODING));
 			for (String line; (line = reader.readLine()) != null;) {
 
-				writer.write(line);
-				writer.newLine();
+			
 
 
 			}
