@@ -1,41 +1,40 @@
 package dao;
 
-public class BeginningSegment_B10 {
+public class B10_BeginningSegment {
 	
-	private String referenceIdentifier_B1001;
+	private String B1001_referenceIdentifier;
 	
-	private String shipmentIdentifier_B1002;
+	private String B1002_shipmentIdentifier;
 	
-	private String carrierCode_B1003;
+	private String B1003_carrierCode;
 	
 	
-	public String getReferenceIdentifier_B1001() {
-		return referenceIdentifier_B1001;
+	public String getB1001_referenceIdentifier() {
+		return B1001_referenceIdentifier;
 	}
+
 	
-	
-	public void setReferenceIdentifier_B1001(String referenceIdentifier_B1001) {
-		this.referenceIdentifier_B1001 = referenceIdentifier_B1001;
+	public void setB1001_referenceIdentifier(String b1001_referenceIdentifier) {
+		B1001_referenceIdentifier = b1001_referenceIdentifier;
 	}
+
 	
-	
-	public String getShipmentIdentifier_B1002() {
-		return shipmentIdentifier_B1002;
+	public String getB1002_shipmentIdentifier() {
+		return B1002_shipmentIdentifier;
 	}
+
 	
-	
-	public void setShipmentIdentifier_B1002(String shipmentIdentifier_B1002) {
-		this.shipmentIdentifier_B1002 = shipmentIdentifier_B1002;
+	public void setB1002_shipmentIdentifier(String b1002_shipmentIdentifier) {
+		B1002_shipmentIdentifier = b1002_shipmentIdentifier;
 	}
+
 	
-	
-	public String getCarrierCode_B1003() {
-		return carrierCode_B1003;
+	public String getB1003_carrierCode() {
+		return B1003_carrierCode;
 	}
-	
-	
-	public void setCarrierCode_B1003(String carrierCode_B1003) {
-		this.carrierCode_B1003 = carrierCode_B1003;
+
+	public void setB1003_carrierCode(String b1003_carrierCode) {
+		B1003_carrierCode = b1003_carrierCode;
 	}
 	
 }

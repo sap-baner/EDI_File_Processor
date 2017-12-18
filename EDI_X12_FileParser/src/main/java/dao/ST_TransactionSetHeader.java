@@ -1,29 +1,31 @@
 package dao;
 
-public class TransactionSetHeader_ST {
+public class ST_TransactionSetHeader {
 
 	
-	private String transactionSetIdCode_ST01;
+	private String ST01_transactionSetIdCode;
 	
-	private String transactionSetControlNumber_ST02;
+	private String ST02_transactionSetControlNumber;
 	
 	
-	public String getTransactionSetIdCode_ST01() {
-		return transactionSetIdCode_ST01;
+	public String getST01_transactionSetIdCode() {
+		return ST01_transactionSetIdCode;
 	}
+
 	
-	
-	public void setTransactionSetIdCode_ST01(String transactionSetIdCode_ST01) {
-		this.transactionSetIdCode_ST01 = transactionSetIdCode_ST01;
+	public void setST01_transactionSetIdCode(String sT01_transactionSetIdCode) {
+		ST01_transactionSetIdCode = sT01_transactionSetIdCode;
 	}
+
 	
-	
-	public String getTransactionSetControlNumber_ST02() {
-		return transactionSetControlNumber_ST02;
+	public String getST02_transactionSetControlNumber() {
+		return ST02_transactionSetControlNumber;
 	}
+
 	
-	
-	public void setTransactionSetControlNumber_ST02(String transactionSetControlNumber_ST02) {
-		this.transactionSetControlNumber_ST02 = transactionSetControlNumber_ST02;
+	public void setST02_transactionSetControlNumber(String sT02_transactionSetControlNumber) {
+		ST02_transactionSetControlNumber = sT02_transactionSetControlNumber;
 	}
+
+	
 }

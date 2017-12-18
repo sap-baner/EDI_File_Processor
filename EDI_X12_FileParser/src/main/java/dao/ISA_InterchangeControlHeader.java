@@ -1,199 +1,198 @@
 package dao;
 
-public class InterchangeControlHeader_ISA {
+public class ISA_InterchangeControlHeader {
 	
-	private String authQualifier_ISA01;
+	private String ISA01_authQualifier;
 	
-	private String authInfo_ISA02;
+	private String ISA02_authInfo;
 	
-	private String securityInfoQualifier_ISA03;
+	private String ISA03_securityInfoQualifier;
 	
-	private String securityInfo_ISA04;
+	private String ISA04_securityInfo;
 	
-	private String interchangeIdQualifier_ISA05;
+	private String ISA05_interchangeIdQualifier;
 	
-	private String interchangeSenderId_ISA06;
+	private String ISA06_interchangeSenderId;
 	
-	private String interchangeIdQualifier_ISA07;
+	private String ISA07_interchangeIdQualifier;
 	
-	private String interchangeReceiverId_ISA08;
+	private String ISA08_interchangeReceiverId;
 	
-	private String interchangeDate_ISA09;
+	private String ISA09_interchangeDate;
 	
-	private String interchangeTime_ISA10;
+	private String ISA10_interchangeTime;
 	
-	private char interchangeControlStdsIdentifier_ISA11;
+	private char ISA11_interchangeControlStdsIdentifier;
 	
-	private String interchangeControlVersionNo_ISA12;
+	private String ISA12_interchangeControlVersionNo;
 	
-	private String interchangeControlNo_ISA13;
+	private String ISA13_interchangeControlNo;
 	
-	private char ackRequested_ISA14;
+	private char ISA14_ackRequested;
 	
-	private char usageIndicator_ISA15;
+	private char ISA15_usageIndicator;
 	
-	private char componentElementSeparator_ISA16;
+	private char ISA16_componentElementSeparator;
 	
 	
-	
-	public String getAuthQualifier_ISA01() {
-		return authQualifier_ISA01;
-	}
-	
-	
-	public void setAuthQualifier_ISA01(String authQualifier_ISA01) {
-		this.authQualifier_ISA01 = authQualifier_ISA01;
-	}
-	
-	
-	public String getAuthInfo_ISA02() {
-		return authInfo_ISA02;
-	}
-	
-	
-	public void setAuthInfo_ISA02(String authInfo_ISA02) {
-		this.authInfo_ISA02 = authInfo_ISA02;
-	}
-	
-	
-	public String getSecurityInfoQualifier_ISA03() {
-		return securityInfoQualifier_ISA03;
-	}
-	
-	
-	public void setSecurityInfoQualifier_ISA03(String securityInfoQualifier_ISA03) {
-		this.securityInfoQualifier_ISA03 = securityInfoQualifier_ISA03;
-	}
-	
-	
-	public String getSecurityInfo_ISA04() {
-		return securityInfo_ISA04;
-	}
-	
-	
-	public void setSecurityInfo_ISA04(String securityInfo_ISA04) {
-		this.securityInfo_ISA04 = securityInfo_ISA04;
-	}
-	
-	
-	public String getInterchangeIdQualifier_ISA05() {
-		return interchangeIdQualifier_ISA05;
-	}
-	
-	
-	public void setInterchangeIdQualifier_ISA05(String interchangeIdQualifier_ISA05) {
-		this.interchangeIdQualifier_ISA05 = interchangeIdQualifier_ISA05;
-	}
-	
-	
-	public String getInterchangeSenderId_ISA06() {
-		return interchangeSenderId_ISA06;
-	}
-	
-	
-	public void setInterchangeSenderId_ISA06(String interchangeSenderId_ISA06) {
-		this.interchangeSenderId_ISA06 = interchangeSenderId_ISA06;
-	}
-	
-	
-	public String getInterchangeIdQualifier_ISA07() {
-		return interchangeIdQualifier_ISA07;
-	}
-	
-	
-	public void setInterchangeIdQualifier_ISA07(String interchangeIdQualifier_ISA07) {
-		this.interchangeIdQualifier_ISA07 = interchangeIdQualifier_ISA07;
-	}
-	
-	
-	public String getInterchangeReceiverId_ISA08() {
-		return interchangeReceiverId_ISA08;
-	}
-	
-	
-	public void setInterchangeReceiverId_ISA08(String interchangeReceiverId_ISA08) {
-		this.interchangeReceiverId_ISA08 = interchangeReceiverId_ISA08;
-	}
-	
-	
-	public String getInterchangeDate_ISA09() {
-		return interchangeDate_ISA09;
-	}
-	
-	
-	public void setInterchangeDate_ISA09(String interchangeDate_ISA09) {
-		this.interchangeDate_ISA09 = interchangeDate_ISA09;
-	}
-	
-	
-	public String getInterchangeTime_ISA10() {
-		return interchangeTime_ISA10;
-	}
-	
-	
-	public void setInterchangeTime_ISA10(String interchangeTime_ISA10) {
-		this.interchangeTime_ISA10 = interchangeTime_ISA10;
-	}
-	
-	
-	public char getInterchangeControlStdsIdentifier_ISA11() {
-		return interchangeControlStdsIdentifier_ISA11;
-	}
-	
-	
-	public void setInterchangeControlStdsIdentifier_ISA11(char interchangeControlStdsIdentifier_ISA11) {
-		this.interchangeControlStdsIdentifier_ISA11 = interchangeControlStdsIdentifier_ISA11;
-	}
-	
-	
-	public String getInterchangeControlVersionNo_ISA12() {
-		return interchangeControlVersionNo_ISA12;
-	}
-	
-	
-	public void setInterchangeControlVersionNo_ISA12(String interchangeControlVersionNo_ISA12) {
-		this.interchangeControlVersionNo_ISA12 = interchangeControlVersionNo_ISA12;
+	public String getISA01_authQualifier() {
+		return ISA01_authQualifier;
 	}
 
-
-	public String getInterchangeControlNo_ISA13() {
-		return interchangeControlNo_ISA13;
+	
+	public void setISA01_authQualifier(String iSA01_authQualifier) {
+		ISA01_authQualifier = iSA01_authQualifier;
 	}
 
-
-	public void setInterchangeControlNo_ISA13(String interchangeControlNo_ISA13) {
-		this.interchangeControlNo_ISA13 = interchangeControlNo_ISA13;
+	
+	public String getISA02_authInfo() {
+		return ISA02_authInfo;
 	}
 
-
-	public char getAckRequested_ISA14() {
-		return ackRequested_ISA14;
+	
+	public void setISA02_authInfo(String iSA02_authInfo) {
+		ISA02_authInfo = iSA02_authInfo;
 	}
 
-
-	public void setAckRequested_ISA14(char ackRequested_ISA14) {
-		this.ackRequested_ISA14 = ackRequested_ISA14;
+	
+	public String getISA03_securityInfoQualifier() {
+		return ISA03_securityInfoQualifier;
 	}
 
-
-	public char getUsageIndicator_ISA15() {
-		return usageIndicator_ISA15;
+	
+	public void setISA03_securityInfoQualifier(String iSA03_securityInfoQualifier) {
+		ISA03_securityInfoQualifier = iSA03_securityInfoQualifier;
 	}
 
-
-	public void setUsageIndicator_ISA15(char usageIndicator_ISA15) {
-		this.usageIndicator_ISA15 = usageIndicator_ISA15;
+	
+	public String getISA04_securityInfo() {
+		return ISA04_securityInfo;
 	}
 
-
-	public char getComponentElementSeparator_ISA16() {
-		return componentElementSeparator_ISA16;
+	
+	public void setISA04_securityInfo(String iSA04_securityInfo) {
+		ISA04_securityInfo = iSA04_securityInfo;
 	}
 
+	
+	public String getISA05_interchangeIdQualifier() {
+		return ISA05_interchangeIdQualifier;
+	}
 
-	public void setComponentElementSeparator_ISA16(char componentElementSeparator_ISA16) {
-		this.componentElementSeparator_ISA16 = componentElementSeparator_ISA16;
+	
+	public void setISA05_interchangeIdQualifier(String iSA05_interchangeIdQualifier) {
+		ISA05_interchangeIdQualifier = iSA05_interchangeIdQualifier;
+	}
+
+	
+	public String getISA06_interchangeSenderId() {
+		return ISA06_interchangeSenderId;
+	}
+
+	
+	public void setISA06_interchangeSenderId(String iSA06_interchangeSenderId) {
+		ISA06_interchangeSenderId = iSA06_interchangeSenderId;
+	}
+
+	
+	public String getISA07_interchangeIdQualifier() {
+		return ISA07_interchangeIdQualifier;
+	}
+
+	
+	public void setISA07_interchangeIdQualifier(String iSA07_interchangeIdQualifier) {
+		ISA07_interchangeIdQualifier = iSA07_interchangeIdQualifier;
+	}
+
+	
+	public String getISA08_interchangeReceiverId() {
+		return ISA08_interchangeReceiverId;
+	}
+
+	
+	public void setISA08_interchangeReceiverId(String iSA08_interchangeReceiverId) {
+		ISA08_interchangeReceiverId = iSA08_interchangeReceiverId;
+	}
+
+	
+	public String getISA09_interchangeDate() {
+		return ISA09_interchangeDate;
+	}
+
+	
+	public void setISA09_interchangeDate(String iSA09_interchangeDate) {
+		ISA09_interchangeDate = iSA09_interchangeDate;
+	}
+
+	
+	public String getISA10_interchangeTime() {
+		return ISA10_interchangeTime;
+	}
+
+	
+	public void setISA10_interchangeTime(String iSA10_interchangeTime) {
+		ISA10_interchangeTime = iSA10_interchangeTime;
+	}
+
+	
+	public char getISA11_interchangeControlStdsIdentifier() {
+		return ISA11_interchangeControlStdsIdentifier;
+	}
+
+	
+	public void setISA11_interchangeControlStdsIdentifier(char iSA11_interchangeControlStdsIdentifier) {
+		ISA11_interchangeControlStdsIdentifier = iSA11_interchangeControlStdsIdentifier;
+	}
+
+	
+	public String getISA12_interchangeControlVersionNo() {
+		return ISA12_interchangeControlVersionNo;
+	}
+
+	
+	public void setISA12_interchangeControlVersionNo(String iSA12_interchangeControlVersionNo) {
+		ISA12_interchangeControlVersionNo = iSA12_interchangeControlVersionNo;
+	}
+
+	
+	public String getISA13_interchangeControlNo() {
+		return ISA13_interchangeControlNo;
+	}
+
+	
+	public void setISA13_interchangeControlNo(String iSA13_interchangeControlNo) {
+		ISA13_interchangeControlNo = iSA13_interchangeControlNo;
+	}
+
+	
+	public char getISA14_ackRequested() {
+		return ISA14_ackRequested;
+	}
+
+	
+	public void setISA14_ackRequested(char iSA14_ackRequested) {
+		ISA14_ackRequested = iSA14_ackRequested;
+	}
+
+	
+	public char getISA15_usageIndicator() {
+		return ISA15_usageIndicator;
+	}
+
+	
+	public void setISA15_usageIndicator(char iSA15_usageIndicator) {
+		ISA15_usageIndicator = iSA15_usageIndicator;
+	}
+
+	
+	public char getISA16_componentElementSeparator() {
+		return ISA16_componentElementSeparator;
 	}
 	
+
+	public void setISA16_componentElementSeparator(char iSA16_componentElementSeparator) {
+		ISA16_componentElementSeparator = iSA16_componentElementSeparator;
+	}
+
 
 }
