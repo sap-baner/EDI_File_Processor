@@ -24,6 +24,9 @@ public class ShipmentStatusMessage {
 	public ST_TransactionSetHeader getST_transactionSetHeader(int index) {
 		return listST_transactionSetHeader.get(index);
 	}
+	public ST_TransactionSetHeader getST_transactionSetHeader_LastElement() {
+		return listST_transactionSetHeader.get(listST_transactionSetHeader.size()-1);
+	}
 	public void addST_transactionSetHeader(
 			ST_TransactionSetHeader ST_transactionSetHeader) {
 		this.listST_transactionSetHeader.add(ST_transactionSetHeader);

@@ -2,10 +2,12 @@ package com.ct.parser.filereader;
 
 import java.util.Properties;
 
+import com.ct.parser.strategy.B10ParsingStrategy;
 import com.ct.parser.strategy.GSParsingStrategy;
 import com.ct.parser.strategy.ISAParsingStrategy;
 import com.ct.parser.strategy.Parser;
 import com.ct.parser.strategy.STParsingStrategy;
+
 import dao.ShipmentStatusMessage;
 
 public class FileParser {
@@ -23,6 +25,9 @@ public class FileParser {
 		}
 		else if("ST".equals(mainToken)) {
 			parser = new Parser(new STParsingStrategy());
+		}
+		else if("B10".equals(mainToken)) {
+			parser = new Parser(new B10ParsingStrategy());
 		}
 		if(parser!=null) {
 			parser.parse(rules, tokens, msg);

@@ -44,7 +44,8 @@ public class ST_TransactionSetHeader {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "ST01: " + ST01_transactionSetIdCode + ", ST02: " + ST02_transactionSetControlNumber ;
+		return "ST01: " + ST01_transactionSetIdCode + ", ST02: " + ST02_transactionSetControlNumber 
+				+ ", B10: {" + B10_beginningSegment.toString() + "}";
 	}
 	
 }

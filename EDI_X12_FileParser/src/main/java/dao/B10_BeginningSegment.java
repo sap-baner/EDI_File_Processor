@@ -37,4 +37,10 @@ public class B10_BeginningSegment {
 		B1003_carrierCode = b1003_carrierCode;
 	}
 	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "B1001: " + B1001_referenceIdentifier + ", B1002: " + B1002_shipmentIdentifier 
+				+ "B1003: " + B1003_carrierCode;
+	}
 }
