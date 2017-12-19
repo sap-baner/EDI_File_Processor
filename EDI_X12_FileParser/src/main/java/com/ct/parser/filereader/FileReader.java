@@ -28,7 +28,7 @@ public class FileReader {
 		
 		System.out.println("ISA field value: " + rules.getProperty("ISA"));
 		ShipmentStatusMessage msg = new ShipmentStatusMessage();
-		readFile(rules, "C:/Users/mohanaj/SagarMogare_assignment/214OutputA.TXT", msg);
+		readFile(rules, "C:/Users/mohanaj/EDI_project/214OutputA.TXT", msg);
 		
 		
 	}
