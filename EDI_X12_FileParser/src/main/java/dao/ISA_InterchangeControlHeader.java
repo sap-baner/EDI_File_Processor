@@ -195,4 +195,11 @@ public class ISA_InterchangeControlHeader {
 	}
 
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "ISA01: " + ISA01_authQualifier + ", ISA02: " + ISA02_authInfo ;
+	}
+
+
 }

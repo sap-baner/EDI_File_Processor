@@ -96,4 +96,10 @@ public class GS_FunctionalGroupHeader {
 	public void setGS08_ediVersionNo(String gS08_ediVersionNo) {
 		GS08_ediVersionNo = gS08_ediVersionNo;
 	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "GS01: " + GS01_functIdentifierCode + ", GS02: " + GS02_appSenderCode ;
+	}
 }
