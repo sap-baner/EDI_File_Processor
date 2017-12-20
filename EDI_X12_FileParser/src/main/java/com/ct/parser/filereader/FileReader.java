@@ -27,9 +27,9 @@ public class FileReader {
 		Properties rules = loadRules();
 		
 		System.out.println("ISA field value: " + rules.getProperty("ISA"));
-		ShipmentStatusMessage msg = new ShipmentStatusMessage();
-		readFile(rules, "C:/Users/mohanaj/EDI_project/214OutputA.TXT", msg);
-		
+//		ShipmentStatusMessage msg = new ShipmentStatusMessage();
+		readFile(rules, "C:/Users/mohanaj/EDI_project/214OutputA.TXT");
+		readFile(rules, "C:/Users/mohanaj/EDI_project/214OutputB.TXT");
 		
 	}
 
@@ -85,10 +85,10 @@ public class FileReader {
 		return properties;
 	}
 
-	private static void readFile(Properties rules, String inputPath,ShipmentStatusMessage msg) throws Exception{
+	private static void readFile(Properties rules, String inputPath) throws Exception{
 		BufferedReader reader = null;
 		BufferedWriter writer = null;
-
+		ShipmentStatusMessage msg = new ShipmentStatusMessage();
 		try {
 			reader = new BufferedReader(new InputStreamReader(new FileInputStream(inputPath), UTF_8_ENCODING));
 			for (String line; (line = reader.readLine()) != null;) {

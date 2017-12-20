@@ -18,4 +18,8 @@ public class L11_ReferenceNumber {
 		L1102_referenceIdentificationQuaifier = l1102_referenceIdentificationQuaifier;
 	}
 	
+	@Override 
+	public String toString() {
+		return "L1101: " + L1101_referenceIdentification + ", L1102: " + L1102_referenceIdentificationQuaifier;
+	}
 }

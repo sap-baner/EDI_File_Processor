@@ -3,8 +3,10 @@ package com.ct.parser.filereader;
 import java.util.Properties;
 
 import com.ct.parser.strategy.B10ParsingStrategy;
+import com.ct.parser.strategy.G62ParsingStrategy;
 import com.ct.parser.strategy.GSParsingStrategy;
 import com.ct.parser.strategy.ISAParsingStrategy;
+import com.ct.parser.strategy.L11ParsingStrategy;
 import com.ct.parser.strategy.Parser;
 import com.ct.parser.strategy.STParsingStrategy;
 
@@ -28,7 +30,14 @@ public class FileParser {
 		}
 		else if("B10".equals(mainToken)) {
 			parser = new Parser(new B10ParsingStrategy());
+		} 
+		else if("L11".equals(mainToken)) {
+			parser = new Parser(new L11ParsingStrategy());
 		}
+		else if("G62".equals(mainToken)) {
+			parser = new Parser(new G62ParsingStrategy());
+		}
+		
 		if(parser!=null) {
 			parser.parse(rules, tokens, msg);
 		}

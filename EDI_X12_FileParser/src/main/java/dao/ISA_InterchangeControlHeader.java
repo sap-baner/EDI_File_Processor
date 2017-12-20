@@ -1,6 +1,6 @@
 package dao;
 
-public class ISA_InterchangeControlHeader {
+public class ISA_InterchangeControlHeader extends BaseDao{
 	
 	private String ISA01_authQualifier;
 	
@@ -197,8 +197,9 @@ public class ISA_InterchangeControlHeader {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return "ISA01: " + ISA01_authQualifier + ", ISA02: " + ISA02_authInfo ;
+		return BaseDao.getStringRepresentation(this);
+//		// TODO Auto-generated method stub
+//		return "ISA01: " + ISA01_authQualifier + ", ISA02: " + ISA02_authInfo ;
 	}
 
 
